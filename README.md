@@ -12,7 +12,7 @@ Emily Berkely: https://github.com/emilyMB
 
 Bhargavi Satpathy: https://github.com/bhargavisatpathy
 
-Lydia Shafer: https://github.com/lydia303
+Lydia Shafer: https://github.com/lydias303
 
 Christopher Luhring: https://github.com/cluhring
 
