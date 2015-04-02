@@ -21,6 +21,7 @@ gem "turbolinks"
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem "jbuilder", "~> 2.0"
 # bundle exec rake doc:rails generates the API under doc/api.
+
 gem "sdoc", "~> 0.4.0", group: :doc
 gem "faraday", "< 0.9.0"
 # Use ActiveModel has_secure_password
@@ -35,9 +36,14 @@ gem "pry"
 group :development, :test do
   gem "byebug"
   gem "web-console", "~> 2.0"
-  gem "spring"
+  gem 'spring'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'pry'
+  gem 'webmock'
 end
 
 group :test do
   gem "vcr"
+
 end

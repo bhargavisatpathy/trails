@@ -36,7 +36,12 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    addressable (2.3.8)
     arel (6.0.0)
+    better_errors (2.1.1)
+      coderay (>= 1.0.0)
+      erubis (>= 2.6.6)
+      rack (>= 0.9.0)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     builder (3.2.2)
@@ -51,6 +56,8 @@ GEM
       execjs
     coffee-script-source (1.9.1)
     columnize (0.9.0)
+    crack (0.4.2)
+      safe_yaml (~> 1.0.0)
     debug_inspector (0.0.2)
     erubis (2.7.0)
     execjs (2.4.0)
@@ -115,6 +122,7 @@ GEM
     rake (10.4.2)
     rdoc (4.2.0)
       json (~> 1.4)
+    safe_yaml (1.0.4)
     sass (3.4.13)
     sass-rails (5.0.3)
       railties (>= 4.0.0, < 5.0)
@@ -152,11 +160,16 @@ GEM
       binding_of_caller (>= 0.7.2)
       railties (>= 4.0)
       sprockets-rails (>= 2.0, < 4.0)
+    webmock (1.20.4)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  better_errors
+  binding_of_caller
   byebug
   coffee-rails (~> 4.1.0)
   faraday (< 0.9.0)
@@ -172,3 +185,4 @@ DEPENDENCIES
   uglifier (>= 1.3.0)
   vcr
   web-console (~> 2.0)
+  webmock
