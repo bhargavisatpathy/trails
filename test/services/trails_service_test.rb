@@ -19,17 +19,12 @@ class TrailsServiceTest < ActiveSupport::TestCase
       assert_equal 37.75756, first_trail["lat"]
       assert_equal -122.45615, first_trail["lon"]
       assert_equal "mountain biking",
-        first_trail["activities"].first["activity_type_name"]
+                   first_trail["activities"].first["activity_type_name"]
       assert_equal "http://www.singletracks.com/item.php?c=1&i=5180",
-        first_trail["activities"].first["url"]
+                   first_trail["activities"].first["url"]
       assert_equal 2, first_trail["activities"].first["length"]
       assert_equal "http://images.singletracks.com/2013/12/image-29.jpg",
-        first_trail["activities"].first["thumbnail"]
-      assert_equal "Fun ride through the Mt. Sutro forest.  Technical signal \
-        track that has some big drops if you slip on &quot;Historic Trail&quot;.\
-        A lot of cutbacks going down to Stanyan St. exit. This trail is well\
-        maintained by volunteers at http://sutrostewards.org.",
-        first_trail["activities"].first["description"]
+                   first_trail["activities"].first["thumbnail"]
     end
   end
 end
