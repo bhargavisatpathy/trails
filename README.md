@@ -8,7 +8,7 @@ This project is for the fourth module at the Turing School of Software and Desig
 
 Full project specifications are available here: http://tutorials.jumpstartlab.com/projects/feed_engine/feed_engine.html
 
-Emily Berkely: https://github.com/emilyMB
+Emily Berkeley: https://github.com/emilyMB
 
 Bhargavi Satpathy: https://github.com/bhargavisatpathy
 
