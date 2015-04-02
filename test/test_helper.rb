@@ -1,11 +1,10 @@
-ENV['RAILS_ENV'] ||= 'test'
-require File.expand_path('../../config/environment', __FILE__)
-require 'rails/test_help'
-require 'minitest/pride'
-require 'vcr'
+ENV['RAILS_ENV'] ||= "test"
+require File.expand_path("../../config/environment", __FILE__)
+require "rails/test_help"
+require "minitest/pride"
+require "vcr"
 
 class ActiveSupport::TestCase
-
   VCR.configure do |c|
     c.cassette_library_dir = "test/vcr_cassettes"
     c.hook_into :webmock
