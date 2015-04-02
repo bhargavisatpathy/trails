@@ -2,7 +2,7 @@
 
 ### Feed Engine || Turing-Trails
 
-Turing Trails was brought to you by Emily Berkely, Bhargavi Satpathy, Lydia Shafer and Christopher Luhring.
+Turing Trails was brought to you by Emily Berkeley, Bhargavi Satpathy, Lydia Shafer and Christopher Luhring.
 
 This project is for the fourth module at the Turing School of Software and Design.
 
