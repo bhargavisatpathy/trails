@@ -1,4 +1,4 @@
-class TrailsService
+routesclass TrailsService
   attr_reader :connection
 
   def initialize
