@@ -7,7 +7,7 @@ routesclass TrailsService
 
   def trails
     parse(connection.get do |req|
-      req.params["api_key"] = "b9cfeeefd2bde349eedce7e901254da5"
+      req.params["api_key"] = ENV["trails_api_key"]
       req.params["format"] = "json"
       req.params["lat"] = 37.75
       req.params["lon"] = -122.42
