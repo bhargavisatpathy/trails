@@ -1,17 +1,16 @@
-routesclass TrailsService
+class TrailsService
   attr_reader :connection
 
   def initialize
     @connection = Faraday.new(url: "https://outdoor-data-api.herokuapp.com/api")
   end
 
-  def trails
+  def get_all_trails
     parse(connection.get do |req|
       req.params["api_key"] = ENV["trails_api_key"]
       req.params["format"] = "json"
-      req.params["lat"] = 37.75
-      req.params["lon"] = -122.42
-      req.params["radius"] = 3
+      req.params["Country"] = "United States"
+      req.params["limit"] = 10
     end)
   end
 
