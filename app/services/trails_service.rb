@@ -6,12 +6,14 @@ class TrailsService
   end
 
   def get_all_trails
-    parse(connection.get do |req|
+    data = parse(connection.get do |req|
       req.params["api_key"] = ENV["trails_api_key"]
       req.params["format"] = "json"
       req.params["Country"] = "United States"
       req.params["limit"] = 10
     end)
+
+    TrailGenerator.save_trails(data)
   end
 
   private
