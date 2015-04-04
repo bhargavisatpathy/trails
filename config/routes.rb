@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
-  
+
   namespace :api do
-    namspace :v1 do
+    namespace :v1 do
       namespace :trails do
-        get '/' to: "trails#index"
+        get '/', to: "trails#index"
         get '/:id/birds', to: "birds#show"
       end
     end
