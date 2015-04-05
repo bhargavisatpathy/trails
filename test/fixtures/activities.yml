@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  trail_id: 
+  activity_type_name: MyString
+  url: MyString
+  activity_description: MyString
+  length: 1
+
+two:
+  trail_id: 
+  activity_type_name: MyString
+  url: MyString
+  activity_description: MyString
+  length: 1
