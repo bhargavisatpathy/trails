@@ -15,11 +15,10 @@ gem "pry"
 group :development, :test do
   gem "byebug"
   gem "web-console", "~> 2.0"
-  gem 'spring'
-  gem 'better_errors'
-  gem 'binding_of_caller'
-  gem 'pry'
-  gem 'webmock'
+  gem "spring"
+  gem "better_errors"
+  gem "binding_of_caller"
+  gem "webmock"
 end
 
 group :test do

@@ -7,7 +7,6 @@ class XenoCantoService
   end
 
   def recordings(min_lat, min_long, max_lat, max_long)
-    binding.pry
     parse(connection
       .get("recordings?query=box:#{min_lat},#{min_long},#{max_lat},#{max_long}"))
   end

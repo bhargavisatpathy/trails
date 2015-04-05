@@ -22,5 +22,4 @@ Christopher Luhring: https://github.com/cluhring
 * git push heroku master
 * heroku pg:reset
 * heroku run rake db:schema:load db:seed
-* heroku open and look at all the interesing trails at your place
-
+* heroku open and look at all the interesting trails at your place
