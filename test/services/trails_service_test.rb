@@ -26,4 +26,15 @@ class TrailsServiceTest < ActiveSupport::TestCase
       assert_equal 6.0, first_trail["activities"].first["length"]
     end
   end
+
+  test "#trails activities" do
+    VCR.use_cassette("trails_service_api_activities") do
+      trails = service.get_all_trails
+      second_trail = trails.second
+      trail_activities = second_trail["activities"]
+
+      assert_equal 1, trail_activities.count
+      assert_equal "camping", trail_activities.first["activity_type_name"]
+    end
+  end
 end

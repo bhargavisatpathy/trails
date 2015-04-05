@@ -4,4 +4,7 @@ class Api::V1::Trails::TrailsController < ApplicationController
     render json: {}
   end
 
+  def show
+    render json: {}
+  end
 end
