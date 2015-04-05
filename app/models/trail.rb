@@ -1,3 +1,2 @@
-class Trail
-  
+class Trail < ActiveRecord::Base
 end

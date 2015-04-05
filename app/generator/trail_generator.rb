@@ -6,8 +6,9 @@ class TrailGenerator
       t.name        = trail["name"]
       t.city        = trail["city"]
       t.state       = trail["state"]
+      t.country     = trail["country"]
       t.lat         = trail["lat"]
-      t.lon         = trail["lon"]
+      t.lng         = trail["lon"]
       t.description = trail["description"]
       t.directions  = trail["directions"]
       t.save
