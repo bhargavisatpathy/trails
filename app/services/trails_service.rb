@@ -9,7 +9,7 @@ class TrailsService
     data = parse(connection.get do |req|
       req.params["api_key"] = ENV["trails_api_key"]
       req.params["format"] = "json"
-      req.params["Country"] = "United States"
+      req.params["country"] = "United States"
       req.params["limit"] = 10
     end)
 

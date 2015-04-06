@@ -18,9 +18,9 @@ group :development, :test do
   gem "spring"
   gem "better_errors"
   gem "binding_of_caller"
-  gem "webmock"
 end
 
 group :test do
   gem "vcr"
+  gem "webmock"
 end
