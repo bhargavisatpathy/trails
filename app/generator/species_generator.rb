@@ -1,0 +1,2 @@
+class SpeciesGenerator
+end
