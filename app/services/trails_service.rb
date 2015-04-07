@@ -11,7 +11,6 @@ class TrailsService
         req.params["api_key"]        = ENV["trails_api_key"]
         req.params["format"]         = "json"
         req.params["q[state_cont]"]  = state
-        req.params["radius"]         = 50
         req.params["limit"]          = limit
       end)
       TrailGenerator.save_trails(data)
