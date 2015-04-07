@@ -6,13 +6,13 @@ class TrailsService
   end
 
   def get_all_trails
-    states.values.each do |state|
+    states.values.map do |state|
       data = parse(connection.get do |req|
         req.params["api_key"]        = ENV["trails_api_key"]
         req.params["format"]         = "json"
         req.params["q[state_cont]"]  = state
         req.params["radius"]         = 50
-        req.params["limit"]          = 500
+        req.params["limit"]          = 1
       end)
       TrailGenerator.save_trails(data)
     end

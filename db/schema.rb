@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 20150406232825) do
     t.integer  "length"
     t.datetime "created_at",           null: false
     t.datetime "updated_at",           null: false
-    t.integer  "unique_id"
+    t.string   "unique_id"
   end
 
   add_index "activities", ["trail_id"], name: "index_activities_on_trail_id", using: :btree
