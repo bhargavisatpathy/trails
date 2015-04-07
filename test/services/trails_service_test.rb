@@ -9,7 +9,7 @@ class TrailsServiceTest < ActiveSupport::TestCase
 
   test "#trails" do
     VCR.use_cassette("trails_service_api") do
-      all_trails   = service.get_all_trails
+      all_trails   = service.get_all_trails(1)
       trails       = all_trails.flatten
       first_trail  = trails.first
 
@@ -30,7 +30,7 @@ class TrailsServiceTest < ActiveSupport::TestCase
 
   test "#trails activities" do
     VCR.use_cassette("trails_service_api_activities") do
-      all_trails   = service.get_all_trails
+      all_trails   = service.get_all_trails(1)
       trails       = all_trails.flatten
       second_trail = trails.second
       trail_activities = second_trail["activities"]
@@ -42,7 +42,7 @@ class TrailsServiceTest < ActiveSupport::TestCase
 
   test "#trails loops through by state" do
     VCR.use_cassette("trails_service_api") do
-      all_trails   = service.get_all_trails
+      all_trails   = service.get_all_trails(1)
       trails       = all_trails.flatten
       first_trail  = trails.first
       second_trail = trails.second

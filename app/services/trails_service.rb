@@ -5,14 +5,14 @@ class TrailsService
     @connection = Faraday.new(url: "https://outdoor-data-api.herokuapp.com/api")
   end
 
-  def get_all_trails
+  def get_all_trails(limit)
     states.values.map do |state|
       data = parse(connection.get do |req|
         req.params["api_key"]        = ENV["trails_api_key"]
         req.params["format"]         = "json"
         req.params["q[state_cont]"]  = state
         req.params["radius"]         = 50
-        req.params["limit"]          = 1
+        req.params["limit"]          = limit
       end)
       TrailGenerator.save_trails(data)
     end
