@@ -54,4 +54,13 @@ class TrailsServiceTest < ActiveSupport::TestCase
       assert_equal "Wyoming", last_trail["state"]
     end
   end
+
+  test "#trails limit argument determines the number of records returned" do
+    VCR.use_cassette("trails_service_api_limit_2") do
+      all_trails   = service.get_all_trails(2)
+      trails       = all_trails.flatten
+
+      assert_equal 102, trails.count
+    end
+  end
 end
