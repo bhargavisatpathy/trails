@@ -1,5 +1,4 @@
 class TrailGenerator
-
   def self.save_trails(data)
     data.each do |trail|
     saved_trail =  Trail.find_or_create_by(unique_id: trail["unique_id"]) do |t|
