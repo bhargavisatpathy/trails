@@ -12,11 +12,11 @@ class TrailsServiceTest < ActiveSupport::TestCase
       trails = service.get_all_trails
       first_trail = trails.first
 
-      assert_equal 10, trails.count
-      assert_equal "Chelan", first_trail["city"]
-      assert_equal "Washington", first_trail["state"]
-      assert_equal "Steliko Ridge Trail #1454", first_trail["name"]
-      assert_equal 27369, first_trail["unique_id"]
+      assert_equal 80, trails.count
+      assert_equal "Ogallala", first_trail["city"]
+      assert_equal "Nebraska", first_trail["state"]
+      assert_equal "Lake McConaughy State Recreation Area", first_trail["name"]
+      assert_equal 17975, first_trail["unique_id"]
       assert_equal 47.78097, first_trail["lat"]
       assert_equal -120.26159, first_trail["lon"]
       assert_equal "mountain biking",
@@ -33,8 +33,8 @@ class TrailsServiceTest < ActiveSupport::TestCase
       second_trail = trails.second
       trail_activities = second_trail["activities"]
 
-      assert_equal 1, trail_activities.count
-      assert_equal "camping", trail_activities.first["activity_type_name"]
+      assert_equal 2, trail_activities.count
+      assert_equal "hiking", trail_activities.first["activity_type_name"]
     end
   end
 end
