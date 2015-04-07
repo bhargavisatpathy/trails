@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Alabama&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Alabama
     body:
       encoding: US-ASCII
       string: ''
@@ -29,11 +29,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 09f81134-6bc0-462d-9998-da95952d7082
+      - 9ce04705-52c7-4ba0-b992-f06543ec3e26
       X-Runtime:
-      - '0.105751'
+      - '0.104051'
       Date:
-      - Tue, 07 Apr 2015 02:30:09 GMT
+      - Tue, 07 Apr 2015 20:39:05 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -63,10 +63,10 @@ http_interactions:
         campgrounds to choose from including improved and primative sites and group
         camping.","length":3.0,"activity_type":{"created_at":"2012-08-15T17:31:31Z","id":6,"name":"camping","updated_at":"2012-08-15T17:31:31Z"},"thumbnail":"http://www.tripleblaze.com/./ra-content/images/uploads/2015/03/cdv_photo_001-0.jpg","rank":null,"rating":3.75}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:09 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:06 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Alaska&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Alaska
     body:
       encoding: US-ASCII
       string: ''
@@ -93,11 +93,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - f48cbd74-d134-4e9e-84a1-13c0a6dd8ffa
+      - ef7a076e-84cd-4c13-ab66-4be9899099c3
       X-Runtime:
-      - '0.077525'
+      - '0.084620'
       Date:
-      - Tue, 07 Apr 2015 02:30:09 GMT
+      - Tue, 07 Apr 2015 20:39:06 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -123,10 +123,10 @@ http_interactions:
         for their own travel arrangements and safety, and must bring several of their
         own amenities.","length":3.0,"activity_type":{"created_at":"2012-08-15T17:31:31Z","id":6,"name":"camping","updated_at":"2012-08-15T17:31:31Z"},"thumbnail":"http://images.tripleblaze.com/2011/06/6728-1307279546-0.jpg","rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:10 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:06 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Arizona&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Arizona
     body:
       encoding: US-ASCII
       string: ''
@@ -153,11 +153,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - b025f8c6-cc06-4893-9dd0-59b893226675
+      - fa33dd85-26d2-4252-8587-cb5e8e11f8ee
       X-Runtime:
-      - '0.077457'
+      - '0.093445'
       Date:
-      - Tue, 07 Apr 2015 02:30:09 GMT
+      - Tue, 07 Apr 2015 20:39:07 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -202,10 +202,10 @@ http_interactions:
         the &lt;br /&gt;<br />parking lot you started in. ","length":6.0,"activity_type":{"created_at":"2012-08-15T16:12:35Z","id":5,"name":"mountain
         biking","updated_at":"2012-08-15T16:12:35Z"},"thumbnail":null,"rank":null,"rating":3.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:10 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:07 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Arkansas&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Arkansas
     body:
       encoding: US-ASCII
       string: ''
@@ -232,11 +232,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - f76e9382-2dd8-458d-b5fa-3ed37d55808b
+      - b5204ea6-8e32-42a5-99dd-0faae092d183
       X-Runtime:
-      - '0.086500'
+      - '0.089350'
       Date:
-      - Tue, 07 Apr 2015 02:30:10 GMT
+      - Tue, 07 Apr 2015 20:39:07 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -259,10 +259,10 @@ http_interactions:
         State Park Mountain Bike Trail features 40 miles of hiking trails near Kirby,
         AR.","length":40.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:10 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:07 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=California&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=California
     body:
       encoding: US-ASCII
       string: ''
@@ -289,11 +289,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 768c52b7-1bb1-4a13-a0c8-2fdecc376228
+      - 4024b0c1-0346-4df2-8d67-db1a0a9bf10b
       X-Runtime:
-      - '0.148458'
+      - '0.124647'
       Date:
-      - Tue, 07 Apr 2015 02:30:10 GMT
+      - Tue, 07 Apr 2015 20:39:08 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -321,10 +321,10 @@ http_interactions:
         Lode.  This scenic setting in the Sierra Nevada foothills boasts exciting
         fishing, waterskiing, and hiking.","length":3.0,"activity_type":{"created_at":"2012-08-15T17:31:31Z","id":6,"name":"camping","updated_at":"2012-08-15T17:31:31Z"},"thumbnail":null,"rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:11 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:08 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Colorado&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Colorado
     body:
       encoding: US-ASCII
       string: ''
@@ -351,11 +351,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - d40b6afe-920c-49a3-a9d3-2a82e84bd371
+      - ec5a9991-8eb2-468c-9587-b75f9ec36a03
       X-Runtime:
-      - '0.081257'
+      - '0.092954'
       Date:
-      - Tue, 07 Apr 2015 02:30:11 GMT
+      - Tue, 07 Apr 2015 20:39:08 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -371,10 +371,10 @@ http_interactions:
         you in to a parking area. From there you must bike over railroad tracks. You
         can take the Front Side Trail or Bike up to CR 177. ","lat":0.0,"lon":0.0,"description":null,"date_created":null,"children":[],"activities":[]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:11 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:08 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Connecticut&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Connecticut
     body:
       encoding: US-ASCII
       string: ''
@@ -401,11 +401,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - da4352cd-417c-45f0-80cd-72f3def1e941
+      - e8739b2f-3b97-42f6-b201-1cef1d1613a2
       X-Runtime:
-      - '0.092294'
+      - '0.094873'
       Date:
-      - Tue, 07 Apr 2015 02:30:11 GMT
+      - Tue, 07 Apr 2015 20:39:09 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -433,10 +433,10 @@ http_interactions:
         biking","updated_at":"2012-08-15T16:12:35Z"},"thumbnail":"http://images.singletracks.com/2009/08/111-0.jpg","rank":null,"rating":3.0},{"name":"Colchester","unique_id":"2-1036","place_id":1110,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=1036","attribs":{"\"length\"":"\"7\""},"description":"Colchester
         features 7 miles of hiking trails near Colchester, CT.","length":7.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:12 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:09 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Delaware&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Delaware
     body:
       encoding: US-ASCII
       string: ''
@@ -463,11 +463,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - b476e4c8-30e6-4e2e-995c-bc9a5f8b2b8c
+      - aa5440d2-f5cb-4441-b0d8-d96b00267a8d
       X-Runtime:
-      - '0.091239'
+      - '0.092357'
       Date:
-      - Tue, 07 Apr 2015 02:30:12 GMT
+      - Tue, 07 Apr 2015 20:39:10 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -494,10 +494,10 @@ http_interactions:
         Hill Rec Area","unique_id":"2-7817","place_id":1160,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=7817","attribs":{"\"length\"":"\"8\""},"description":"Iron
         Hill Rec Area is a 8 mile hiking trail in Newark, Delaware.","length":8.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:12 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:10 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=District%20Of%20Columbia&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=District%20Of%20Columbia
     body:
       encoding: US-ASCII
       string: ''
@@ -524,11 +524,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - edf7bd57-d970-46be-9601-57acc3e4065d
+      - 45944645-9302-410f-9546-7f9c82df1b27
       X-Runtime:
-      - '0.092276'
+      - '0.125752'
       Date:
-      - Tue, 07 Apr 2015 02:30:12 GMT
+      - Tue, 07 Apr 2015 20:39:10 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -571,10 +571,10 @@ http_interactions:
         Canal","unique_id":"2-853","place_id":4241,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=853","attribs":{"\"length\"":"\"183\""},"description":"C&amp;o
         Canal features 183 miles of hiking trails near Washington, AK.","length":183.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:13 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:10 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Florida&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Florida
     body:
       encoding: US-ASCII
       string: ''
@@ -601,11 +601,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 47c6d93b-6786-4625-84d0-98e4effd2791
+      - 820b2406-8fca-4613-a217-101df212da22
       X-Runtime:
-      - '0.079338'
+      - '0.148762'
       Date:
-      - Tue, 07 Apr 2015 02:30:12 GMT
+      - Tue, 07 Apr 2015 20:39:11 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -645,10 +645,10 @@ http_interactions:
         Imh0dHA6Ly9pbWFnZXMudHJpcGxlYmxhemUuY29tLzIwMTEvMTEvSU1HXzYw
         NzYtMS0wLmpwZyIsInJhbmsiOm51bGwsInJhdGluZyI6NC41fV19XX0=
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:13 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:11 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Georgia&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Georgia
     body:
       encoding: US-ASCII
       string: ''
@@ -675,11 +675,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 0cb75cfe-8f3d-461c-98fc-dad93d5f4c05
+      - 60a4d0fb-7efd-4e09-8049-c08532592f79
       X-Runtime:
-      - '0.107592'
+      - '0.097001'
       Date:
-      - Tue, 07 Apr 2015 02:30:13 GMT
+      - Tue, 07 Apr 2015 20:39:11 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -693,10 +693,10 @@ http_interactions:
         Island National Seashore","unique_id":"3-291","place_id":6724,"activity_type_id":6,"activity_type_name":"camping","url":"http://www.tripleblaze.com/trail.php?c=2&i=291","attribs":{"\"length\"":"\"3\""},"description":"Endangered
         Species &amp;bull; ","length":3.0,"activity_type":{"created_at":"2012-08-15T17:31:31Z","id":6,"name":"camping","updated_at":"2012-08-15T17:31:31Z"},"thumbnail":"http://images.tripleblaze.com/2013/05/P4240108-0.jpg","rank":null,"rating":4.67}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:13 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:12 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Hawaii&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Hawaii
     body:
       encoding: US-ASCII
       string: ''
@@ -723,11 +723,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 47e9a62c-b3dd-4269-96a2-76b281bb2ecb
+      - 5bad9fca-f902-4c13-b08e-869a4ad36db3
       X-Runtime:
-      - '0.079885'
+      - '0.115438'
       Date:
-      - Tue, 07 Apr 2015 02:30:13 GMT
+      - Tue, 07 Apr 2015 20:39:12 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -747,10 +747,10 @@ http_interactions:
         the boys on the North Shore at &lt;BR&gt;Country Cycles.","length":5.0,"activity_type":{"created_at":"2012-08-15T16:12:35Z","id":5,"name":"mountain
         biking","updated_at":"2012-08-15T16:12:35Z"},"thumbnail":"http://images.singletracks.com/2010/03/IMG_0421-0.jpg","rank":null,"rating":2.33}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:14 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:12 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Idaho&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Idaho
     body:
       encoding: US-ASCII
       string: ''
@@ -777,11 +777,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 156b6092-d9de-41b0-ac9e-b0b09177b940
+      - 77bda1fd-c422-4d5e-8458-3567d10dc54a
       X-Runtime:
-      - '0.187285'
+      - '0.108450'
       Date:
-      - Tue, 07 Apr 2015 02:30:14 GMT
+      - Tue, 07 Apr 2015 20:39:13 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -836,10 +836,10 @@ http_interactions:
         has four covered picnic shelters.  These shelters can be reserved for your
         get-together by calling the park at 208-686-1308.","length":3.0,"activity_type":{"created_at":"2012-08-15T17:31:31Z","id":6,"name":"camping","updated_at":"2012-08-15T17:31:31Z"},"thumbnail":"http://images.tripleblaze.com/2011/04/5077-1301790118-0.jpg","rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:14 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:13 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Illinois&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Illinois
     body:
       encoding: US-ASCII
       string: ''
@@ -866,11 +866,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 726ecfa8-6a82-4747-b647-87c3c8c670f5
+      - 8a7267da-2fae-4196-b294-1f3e53734e0b
       X-Runtime:
-      - '0.097927'
+      - '0.161476'
       Date:
-      - Tue, 07 Apr 2015 02:30:14 GMT
+      - Tue, 07 Apr 2015 20:39:13 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -905,10 +905,10 @@ http_interactions:
         fee is needed in advance to hold the Cabin for a particular date, then $45.00
         per day after that. The $5.00 reservation fee is non-refundable.","length":3.0,"activity_type":{"created_at":"2012-08-15T17:31:31Z","id":6,"name":"camping","updated_at":"2012-08-15T17:31:31Z"},"thumbnail":null,"rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:15 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:13 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Indiana&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Indiana
     body:
       encoding: US-ASCII
       string: ''
@@ -935,11 +935,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 308dbeb6-2da0-4aca-8320-192573b727be
+      - e9a2e180-02cc-47e5-8654-48fb4ee89a60
       X-Runtime:
-      - '0.098518'
+      - '0.094087'
       Date:
-      - Tue, 07 Apr 2015 02:30:14 GMT
+      - Tue, 07 Apr 2015 20:39:14 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -957,10 +957,10 @@ http_interactions:
         orange higher skillsKnobstone","length":4.0,"activity_type":{"created_at":"2012-08-15T16:12:35Z","id":5,"name":"mountain
         biking","updated_at":"2012-08-15T16:12:35Z"},"thumbnail":null,"rank":null,"rating":3.67}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:15 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:14 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Iowa&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Iowa
     body:
       encoding: US-ASCII
       string: ''
@@ -987,11 +987,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 0cbbec90-9246-4e26-abf5-62a36f72955b
+      - 9a54e78f-b0e4-4992-b250-db4db6fcdf03
       X-Runtime:
-      - '0.091780'
+      - '0.092647'
       Date:
-      - Tue, 07 Apr 2015 02:30:15 GMT
+      - Tue, 07 Apr 2015 20:39:14 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -1013,10 +1013,10 @@ http_interactions:
         Center Trails","unique_id":"2-253","place_id":1560,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=253","attribs":{"\"length\"":"\"0\""},"description":"The
         Center Trails features 0 miles of hiking trails near Des Moines, IA.","length":0.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:15 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:14 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Kansas&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Kansas
     body:
       encoding: US-ASCII
       string: ''
@@ -1043,11 +1043,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 85c36419-97bd-43a0-af85-74b766c7433a
+      - 6070ad38-c8ad-4305-8441-d367d94cee8d
       X-Runtime:
-      - '0.083317'
+      - '0.095470'
       Date:
-      - Tue, 07 Apr 2015 02:30:15 GMT
+      - Tue, 07 Apr 2015 20:39:15 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -1065,10 +1065,10 @@ http_interactions:
         clear mountain stream with a small lake and high picturesque bluffs can be
         found here.","length":3.0,"activity_type":{"created_at":"2012-08-15T17:31:31Z","id":6,"name":"camping","updated_at":"2012-08-15T17:31:31Z"},"thumbnail":null,"rank":null,"rating":5.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:16 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:15 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Kentucky&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Kentucky
     body:
       encoding: US-ASCII
       string: ''
@@ -1095,11 +1095,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 5fc77371-ed28-4ae9-aa0e-96da7a1edc8a
+      - b95cd12a-5923-4dc5-9d44-4a44ec6c6293
       X-Runtime:
-      - '0.075283'
+      - '0.094264'
       Date:
-      - Tue, 07 Apr 2015 02:30:16 GMT
+      - Tue, 07 Apr 2015 20:39:16 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -1122,10 +1122,10 @@ http_interactions:
         Lake","unique_id":"2-1082","place_id":1812,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=1082","attribs":{"\"length\"":"\"0\""},"description":"Cave-run
         Lake features 0 miles of hiking trails near Owingsville, KY.","length":0.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:16 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:16 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Louisiana&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Louisiana
     body:
       encoding: US-ASCII
       string: ''
@@ -1152,11 +1152,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 8fbee692-82e4-46bd-82c5-245ff724697f
+      - 0c835b5d-87b8-47aa-9c2f-db0683b7758a
       X-Runtime:
-      - '0.142628'
+      - '0.099168'
       Date:
-      - Tue, 07 Apr 2015 02:30:16 GMT
+      - Tue, 07 Apr 2015 20:39:16 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -1184,10 +1184,10 @@ http_interactions:
         Park","unique_id":"2-339","place_id":1849,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=339","attribs":{"\"length\"":"\"2\""},"description":"Acadiana
         Park features 2 miles of hiking trails near LaFayette, LA.","length":2.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:17 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:17 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Maine&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Maine
     body:
       encoding: US-ASCII
       string: ''
@@ -1214,11 +1214,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - cf5eec14-05f9-47c3-b5e7-e7694c2773b6
+      - 088b0fd4-7066-4b2d-bda6-62870d106b25
       X-Runtime:
-      - '0.080666'
+      - '0.086126'
       Date:
-      - Tue, 07 Apr 2015 02:30:17 GMT
+      - Tue, 07 Apr 2015 20:39:17 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -1248,10 +1248,10 @@ http_interactions:
         lot behind Martens store.","length":2.0,"activity_type":{"created_at":"2012-08-15T16:12:35Z","id":5,"name":"mountain
         biking","updated_at":"2012-08-15T16:12:35Z"},"thumbnail":null,"rank":null,"rating":3.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:17 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:17 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Maryland&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Maryland
     body:
       encoding: US-ASCII
       string: ''
@@ -1278,11 +1278,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - a7594acf-acab-4c4c-9ff8-6ff762310641
+      - cac02234-5597-4e76-bc95-74c6c61adb0f
       X-Runtime:
-      - '0.140098'
+      - '0.099932'
       Date:
-      - Tue, 07 Apr 2015 02:30:17 GMT
+      - Tue, 07 Apr 2015 20:39:18 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -1308,10 +1308,10 @@ http_interactions:
         Farms","unique_id":"2-1106","place_id":1988,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=1106","attribs":{"\"length\"":"\"10\""},"description":"Schaeffer
         Farms features 10 miles of hiking trails near Germantown, MD.","length":10.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:18 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:18 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Massachusetts&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Massachusetts
     body:
       encoding: US-ASCII
       string: ''
@@ -1338,11 +1338,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - d56ec609-d585-404d-88f5-25e3de90e9ac
+      - c4c96684-d69c-4bbc-99be-53353d4f4771
       X-Runtime:
-      - '0.143147'
+      - '0.099984'
       Date:
-      - Tue, 07 Apr 2015 02:30:17 GMT
+      - Tue, 07 Apr 2015 20:39:18 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -1394,10 +1394,10 @@ http_interactions:
         for renting in addition to the other campsites. ATV are also allowed on the
         trails from May 1 through last Sunday in November.","length":3.0,"activity_type":{"created_at":"2012-08-15T17:31:31Z","id":6,"name":"camping","updated_at":"2012-08-15T17:31:31Z"},"thumbnail":"http://images.tripleblaze.com/2014/04/6490_107391805097_7945097_n.jpg","rank":null,"rating":4.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:18 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:18 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Michigan&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Michigan
     body:
       encoding: US-ASCII
       string: ''
@@ -1424,11 +1424,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 57d1904b-988e-4cc0-b4bf-274f2038b0d6
+      - 8eff5b18-f9ed-4bbc-b187-80d57f837554
       X-Runtime:
-      - '0.076778'
+      - '0.084312'
       Date:
-      - Tue, 07 Apr 2015 02:30:18 GMT
+      - Tue, 07 Apr 2015 20:39:21 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -1447,10 +1447,10 @@ http_interactions:
         trail.","length":5.0,"activity_type":{"created_at":"2012-08-15T16:12:35Z","id":5,"name":"mountain
         biking","updated_at":"2012-08-15T16:12:35Z"},"thumbnail":null,"rank":null,"rating":5.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:18 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:21 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Minnesota&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Minnesota
     body:
       encoding: US-ASCII
       string: ''
@@ -1477,11 +1477,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - aa0e12fc-4156-4920-838f-360a325c25f9
+      - 3dad14dd-3b8a-4676-9c15-d8eb6deb74a4
       X-Runtime:
-      - '0.131938'
+      - '0.089745'
       Date:
-      - Tue, 07 Apr 2015 02:30:18 GMT
+      - Tue, 07 Apr 2015 20:39:21 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -1503,10 +1503,10 @@ http_interactions:
         south of Marcell, Minnesota. source: fs.usda.gov","length":19.0,"activity_type":{"created_at":"2012-08-15T16:12:35Z","id":5,"name":"mountain
         biking","updated_at":"2012-08-15T16:12:35Z"},"thumbnail":null,"rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:19 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:21 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Mississippi&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Mississippi
     body:
       encoding: US-ASCII
       string: ''
@@ -1533,11 +1533,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 983b12c7-e151-4704-b0ba-319f47370864
+      - 52ace164-549f-40b0-8d3b-8e4b6191afad
       X-Runtime:
-      - '0.098007'
+      - '0.093681'
       Date:
-      - Tue, 07 Apr 2015 02:30:19 GMT
+      - Tue, 07 Apr 2015 20:39:22 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -1566,10 +1566,10 @@ http_interactions:
         Lakes","unique_id":"2-653","place_id":4219,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=653","attribs":{"\"length\"":"\"8\""},"description":"Bonita
         Lakes features 8 miles of hiking trails near Meridian, MS.","length":8.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:19 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:22 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Missouri&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Missouri
     body:
       encoding: US-ASCII
       string: ''
@@ -1596,11 +1596,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 8bd9062e-9d1b-4362-bddc-3feafaae626c
+      - 30eb9730-8481-4aa9-97bc-25f18506df07
       X-Runtime:
-      - '0.078039'
+      - '0.087029'
       Date:
-      - Tue, 07 Apr 2015 02:30:19 GMT
+      - Tue, 07 Apr 2015 20:39:22 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -1617,10 +1617,10 @@ http_interactions:
         Point Park sits on the shores of Harry S. Truman Lake in the hills of western
         Missouri.       Visitors enjoy fishing, hunting, swimming and boating.","length":3.0,"activity_type":{"created_at":"2012-08-15T17:31:31Z","id":6,"name":"camping","updated_at":"2012-08-15T17:31:31Z"},"thumbnail":"http://images.tripleblaze.com/2011/05/6544-1306504965-0.jpg","rank":null,"rating":4.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:20 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:22 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Montana&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Montana
     body:
       encoding: US-ASCII
       string: ''
@@ -1647,11 +1647,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 4e3b68c5-1d91-463e-8a8f-84e430b4bbab
+      - 06a70527-5c8c-4617-a3f1-d260da903806
       X-Runtime:
-      - '0.078175'
+      - '0.101828'
       Date:
-      - Tue, 07 Apr 2015 02:30:19 GMT
+      - Tue, 07 Apr 2015 20:39:23 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -1675,10 +1675,10 @@ http_interactions:
         growth trees with views of Tally Lake. source: fs.usda.gov","length":3.0,"activity_type":{"created_at":"2012-08-15T16:12:35Z","id":5,"name":"mountain
         biking","updated_at":"2012-08-15T16:12:35Z"},"thumbnail":null,"rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:20 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:23 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Nebraska&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Nebraska
     body:
       encoding: US-ASCII
       string: ''
@@ -1705,11 +1705,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - c33bd24d-a805-494a-a8de-1202bef36e74
+      - e29346dc-a031-4132-a8a5-7f2942ffc125
       X-Runtime:
-      - '0.077642'
+      - '0.087216'
       Date:
-      - Tue, 07 Apr 2015 02:30:20 GMT
+      - Tue, 07 Apr 2015 20:39:23 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -1743,10 +1743,10 @@ http_interactions:
         trail does the scouting work for you.<br /><br />","length":6.0,"activity_type":{"created_at":"2012-08-15T16:12:35Z","id":5,"name":"mountain
         biking","updated_at":"2012-08-15T16:12:35Z"},"thumbnail":"http://images.singletracks.com/2009/trails/01/1153858686.jpg","rank":null,"rating":4.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:20 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:23 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Nevada&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Nevada
     body:
       encoding: US-ASCII
       string: ''
@@ -1773,11 +1773,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 510a352b-ccf6-4686-a279-a370616cb748
+      - f3b4ae46-20ad-4802-80c5-d07fc4e5ca3a
       X-Runtime:
-      - '0.076987'
+      - '0.100939'
       Date:
-      - Tue, 07 Apr 2015 02:30:20 GMT
+      - Tue, 07 Apr 2015 20:39:24 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -1797,10 +1797,10 @@ http_interactions:
         offs.","length":5.0,"activity_type":{"created_at":"2012-08-15T16:12:35Z","id":5,"name":"mountain
         biking","updated_at":"2012-08-15T16:12:35Z"},"thumbnail":"http://images.singletracks.com/2013/04/2image-jpeg-0.jpg","rank":null,"rating":4.22}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:21 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:24 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=New%20Hampshire&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=New%20Hampshire
     body:
       encoding: US-ASCII
       string: ''
@@ -1827,11 +1827,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 6cff7f12-6f03-4666-b065-affdb9a45ec1
+      - 819aa1bd-1e6a-4e8e-9e9c-20552e6c1b04
       X-Runtime:
-      - '0.082447'
+      - '0.110506'
       Date:
-      - Tue, 07 Apr 2015 02:30:21 GMT
+      - Tue, 07 Apr 2015 20:39:24 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -1858,10 +1858,10 @@ http_interactions:
         to know the layout, these can be avaoided.","length":15.0,"activity_type":{"created_at":"2012-08-15T16:12:35Z","id":5,"name":"mountain
         biking","updated_at":"2012-08-15T16:12:35Z"},"thumbnail":null,"rank":null,"rating":2.33}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:21 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:24 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=New%20Jersey&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=New%20Jersey
     body:
       encoding: US-ASCII
       string: ''
@@ -1888,11 +1888,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 9386d6f9-6176-40b9-972b-c4488636a7a7
+      - bc4be23a-e0c3-4baa-a600-366385afb583
       X-Runtime:
-      - '0.117479'
+      - '0.099813'
       Date:
-      - Tue, 07 Apr 2015 02:30:21 GMT
+      - Tue, 07 Apr 2015 20:39:25 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -1946,10 +1946,10 @@ http_interactions:
         is deep enough.","length":0.0,"activity_type":{"created_at":"2012-08-15T17:33:19Z","id":9,"name":"snow
         sports","updated_at":"2012-08-15T17:33:19Z"},"thumbnail":null,"rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:22 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:25 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=New%20Mexico&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=New%20Mexico
     body:
       encoding: US-ASCII
       string: ''
@@ -1976,11 +1976,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 02511d1a-b8fa-4940-b251-5800b3463045
+      - 51bcb946-3d06-4117-a79e-fb76e547cd6f
       X-Runtime:
-      - '0.078646'
+      - '0.100949'
       Date:
-      - Tue, 07 Apr 2015 02:30:22 GMT
+      - Tue, 07 Apr 2015 20:39:25 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -1994,10 +1994,10 @@ http_interactions:
         miles east of Penasco along US Highway 518.  ","lat":0.0,"lon":0.0,"description":null,"date_created":null,"children":[],"activities":[{"name":"Agua
         Piedra Campground","unique_id":"3-2554","place_id":8516,"activity_type_id":6,"activity_type_name":"camping","url":"http://www.tripleblaze.com/trail.php?c=2&i=2554","attribs":{"\"length\"":"\"3\""},"description":null,"length":3.0,"activity_type":{"created_at":"2012-08-15T17:31:31Z","id":6,"name":"camping","updated_at":"2012-08-15T17:31:31Z"},"thumbnail":null,"rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:22 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:25 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=New%20York&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=New%20York
     body:
       encoding: US-ASCII
       string: ''
@@ -2024,11 +2024,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 2ed2b716-7b26-4a5a-900c-a870917f8414
+      - e1fd18f8-5f06-4330-a75d-aaa04ca2f39b
       X-Runtime:
-      - '0.086228'
+      - '0.091444'
       Date:
-      - Tue, 07 Apr 2015 02:30:22 GMT
+      - Tue, 07 Apr 2015 20:39:26 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -2047,10 +2047,10 @@ http_interactions:
         King State Park","unique_id":"2-4948","place_id":18320,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=4948","attribs":{"\"length\"":"\"0\""},"description":"Beautiful
         area to hike.","length":0.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:22 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:26 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=North%20Carolina&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=North%20Carolina
     body:
       encoding: US-ASCII
       string: ''
@@ -2077,11 +2077,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - f9b71392-64fe-4911-b55d-8d7de306e55f
+      - 41996f9f-f57a-4945-aace-0d841edf9acb
       X-Runtime:
-      - '0.085624'
+      - '0.087025'
       Date:
-      - Tue, 07 Apr 2015 02:30:22 GMT
+      - Tue, 07 Apr 2015 20:39:26 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -2100,10 +2100,10 @@ http_interactions:
         in a grassy field. I drove past, but saw the sign as I passed it the first
         time.","lat":0.0,"lon":0.0,"description":null,"date_created":null,"children":[],"activities":[]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:23 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:26 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=North%20Dakota&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=North%20Dakota
     body:
       encoding: US-ASCII
       string: ''
@@ -2130,11 +2130,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 363a6b79-eef2-49a9-aca9-9e12e049abc1
+      - be96739a-53df-49e4-a0f4-3908938c0771
       X-Runtime:
-      - '0.089482'
+      - '0.095892'
       Date:
-      - Tue, 07 Apr 2015 02:30:23 GMT
+      - Tue, 07 Apr 2015 20:39:28 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -2161,10 +2161,10 @@ http_interactions:
         will take you east (towards Hwy. 83) or north (towards Hwy. 37). ","length":0.0,"activity_type":{"created_at":"2012-08-15T16:12:35Z","id":5,"name":"mountain
         biking","updated_at":"2012-08-15T16:12:35Z"},"thumbnail":null,"rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:23 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:28 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Ohio&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Ohio
     body:
       encoding: US-ASCII
       string: ''
@@ -2191,11 +2191,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 6777a3d6-b3f0-4e64-8ebb-7f8171c8a2dd
+      - 592f4d84-d772-43ee-b1e0-1e68b9ca0d42
       X-Runtime:
-      - '0.075140'
+      - '0.129037'
       Date:
-      - Tue, 07 Apr 2015 02:30:23 GMT
+      - Tue, 07 Apr 2015 20:39:28 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -2221,10 +2221,10 @@ http_interactions:
         Creek Reservation","unique_id":"2-7549","place_id":23437,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=7549","attribs":{"\"length\"":"\"7\""},"description":"Excellent
         trails.","length":7.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:24 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:29 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Oklahoma&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Oklahoma
     body:
       encoding: US-ASCII
       string: ''
@@ -2251,11 +2251,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - faa13146-0fd0-4580-9081-c584871be681
+      - c83ac0b9-f368-4e4b-b512-214ccafdb5b2
       X-Runtime:
-      - '0.076442'
+      - '0.093363'
       Date:
-      - Tue, 07 Apr 2015 02:30:23 GMT
+      - Tue, 07 Apr 2015 20:39:29 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -2273,10 +2273,10 @@ http_interactions:
         Laketrails","unique_id":"2-686","place_id":3010,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=686","attribs":{"\"length\"":"\"7\""},"description":"Arcadia
         Laketrails features 7 miles of hiking trails near Edmond, OK.","length":7.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":"http://www.tripleblaze.com/./ra-content/images/uploads/2015/03/872-0.jpg","rank":null,"rating":3.33}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:24 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:29 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Oregon&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Oregon
     body:
       encoding: US-ASCII
       string: ''
@@ -2303,11 +2303,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 623f7806-1b42-4892-af8d-936083056322
+      - 0d98e221-2440-4991-9ab8-3e3b0ad8af13
       X-Runtime:
-      - '0.071772'
+      - '0.232972'
       Date:
-      - Tue, 07 Apr 2015 02:30:24 GMT
+      - Tue, 07 Apr 2015 20:39:30 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -2331,10 +2331,10 @@ http_interactions:
         access to the ocean shore, Tolovana State Recreation Site has a playground
         located on the north side of the parking lot.","date_created":null,"children":[],"activities":[]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:25 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:30 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Pennsylvania&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Pennsylvania
     body:
       encoding: US-ASCII
       string: ''
@@ -2361,11 +2361,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 1f47707a-5f23-4e72-9d81-a9219c912427
+      - a748cbb4-e368-4bbf-a7bf-76661426e930
       X-Runtime:
-      - '0.072354'
+      - '0.120636'
       Date:
-      - Tue, 07 Apr 2015 02:30:24 GMT
+      - Tue, 07 Apr 2015 20:39:30 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -2380,10 +2380,10 @@ http_interactions:
         right. Park on the left or right, or head all the way through the park and
         stop at the kids'' playground.","lat":40.72412,"lon":-80.364,"description":null,"date_created":null,"children":[],"activities":[]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:25 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:30 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Rhode%20Island&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Rhode%20Island
     body:
       encoding: US-ASCII
       string: ''
@@ -2410,11 +2410,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 0f0c2503-1872-4f9b-9b46-31ae808df3ec
+      - 40d50342-97d0-4514-b365-c044269ed2ed
       X-Runtime:
-      - '0.077392'
+      - '0.090849'
       Date:
-      - Tue, 07 Apr 2015 02:30:25 GMT
+      - Tue, 07 Apr 2015 20:39:31 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -2436,10 +2436,10 @@ http_interactions:
         State Park","unique_id":"2-704","place_id":3263,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=704","attribs":{"\"length\"":"\"25\""},"description":"Arcadia
         State Park features 25 miles of hiking trails near East Greenwich, RI.","length":25.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:25 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:31 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=South%20Carolina&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=South%20Carolina
     body:
       encoding: US-ASCII
       string: ''
@@ -2466,11 +2466,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - d75c1ae9-633a-419f-ba10-4fcc5f3e80b9
+      - 55bc23ee-33f0-43eb-af39-4781211546f2
       X-Runtime:
-      - '0.077659'
+      - '0.101062'
       Date:
-      - Tue, 07 Apr 2015 02:30:25 GMT
+      - Tue, 07 Apr 2015 20:39:31 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -2487,10 +2487,10 @@ http_interactions:
         and features 70,000 surface-acres of water and 1,000+ miles of shoreline for
         boating, water skiing, swimming, fishing, hiking and picnicking.","length":3.0,"activity_type":{"created_at":"2012-08-15T17:31:31Z","id":6,"name":"camping","updated_at":"2012-08-15T17:31:31Z"},"thumbnail":"http://images.tripleblaze.com/2011/03/3947-1300181863-0.jpg","rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:26 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:31 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=South%20Dakota&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=South%20Dakota
     body:
       encoding: US-ASCII
       string: ''
@@ -2517,11 +2517,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 54768952-9a1e-452c-bd6f-848cc0d53428
+      - df86e58e-afc2-44ff-85ef-7295237e9e2f
       X-Runtime:
-      - '0.076692'
+      - '0.086371'
       Date:
-      - Tue, 07 Apr 2015 02:30:25 GMT
+      - Tue, 07 Apr 2015 20:39:32 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -2555,10 +2555,10 @@ http_interactions:
         riding all of these trails as they interconnect.  ","length":0.0,"activity_type":{"created_at":"2012-08-15T16:12:35Z","id":5,"name":"mountain
         biking","updated_at":"2012-08-15T16:12:35Z"},"thumbnail":null,"rank":null,"rating":3.25}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:26 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:32 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Tennessee&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Tennessee
     body:
       encoding: US-ASCII
       string: ''
@@ -2585,11 +2585,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 4a304aed-c541-49e4-8987-627f09c561cb
+      - 08067a9c-f2f3-4861-9369-b999d020fccb
       X-Runtime:
-      - '0.088510'
+      - '0.123754'
       Date:
-      - Tue, 07 Apr 2015 02:30:26 GMT
+      - Tue, 07 Apr 2015 20:39:32 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -2631,10 +2631,10 @@ http_interactions:
         Cypress dominates the margins of the lake, but many other trees and shrubs
         are also present.","length":3.0,"activity_type":{"created_at":"2012-08-15T17:31:31Z","id":6,"name":"camping","updated_at":"2012-08-15T17:31:31Z"},"thumbnail":null,"rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:27 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:32 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Texas&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Texas
     body:
       encoding: US-ASCII
       string: ''
@@ -2661,11 +2661,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 73132f1f-8085-4892-9550-1e9d79845482
+      - 0b04fdc2-2fb8-4c24-a985-5d5297c35e6f
       X-Runtime:
-      - '0.091922'
+      - '0.102530'
       Date:
-      - Tue, 07 Apr 2015 02:30:26 GMT
+      - Tue, 07 Apr 2015 20:39:33 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -2682,10 +2682,10 @@ http_interactions:
         fast, no heavy taffic","length":7.0,"activity_type":{"created_at":"2012-08-15T16:12:35Z","id":5,"name":"mountain
         biking","updated_at":"2012-08-15T16:12:35Z"},"thumbnail":"http://images.singletracks.com/2014/12/IMG_3180.jpg","rank":null,"rating":3.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:27 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:33 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Utah&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Utah
     body:
       encoding: US-ASCII
       string: ''
@@ -2712,11 +2712,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - f6c93c4c-9d24-4782-8af4-e2d83e275e4c
+      - 8da3189d-7fb0-4992-848e-305abd770f40
       X-Runtime:
-      - '0.079783'
+      - '0.127877'
       Date:
-      - Tue, 07 Apr 2015 02:30:27 GMT
+      - Tue, 07 Apr 2015 20:39:33 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -2748,10 +2748,10 @@ http_interactions:
         operated by American Land &amp;amp; Leisure. We appreciate hearing from you.
         Comment cards are available from campground hosts or on line at  www.americanll.com  .","length":3.0,"activity_type":{"created_at":"2012-08-15T17:31:31Z","id":6,"name":"camping","updated_at":"2012-08-15T17:31:31Z"},"thumbnail":"http://images.tripleblaze.com/2011/06/7219-1307542087-0.jpg","rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:27 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:34 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Vermont&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Vermont
     body:
       encoding: US-ASCII
       string: ''
@@ -2778,11 +2778,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 847dce61-07bd-4c2c-8ed2-b735c7738097
+      - 924e56df-6fe3-4f3c-8c6f-d5d3a18aa1f8
       X-Runtime:
-      - '0.081980'
+      - '0.093050'
       Date:
-      - Tue, 07 Apr 2015 02:30:27 GMT
+      - Tue, 07 Apr 2015 20:39:34 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -2811,10 +2811,10 @@ http_interactions:
         />P.S. There are always tons of hikers on the fire road section so watch out.","length":4.0,"activity_type":{"created_at":"2012-08-15T16:12:35Z","id":5,"name":"mountain
         biking","updated_at":"2012-08-15T16:12:35Z"},"thumbnail":null,"rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:28 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:34 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Virginia&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Virginia
     body:
       encoding: US-ASCII
       string: ''
@@ -2841,11 +2841,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 391183a1-73f9-4eb5-9f47-5ca9fc92261a
+      - 7c3809a8-322a-4082-bd94-f1059b6273f7
       X-Runtime:
-      - '0.087703'
+      - '0.112482'
       Date:
-      - Tue, 07 Apr 2015 02:30:28 GMT
+      - Tue, 07 Apr 2015 20:39:35 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -2872,10 +2872,10 @@ http_interactions:
         it is far from the hustle and bustle of city life making it a perfect vacation
         getaway.","length":3.0,"activity_type":{"created_at":"2012-08-15T17:31:31Z","id":6,"name":"camping","updated_at":"2012-08-15T17:31:31Z"},"thumbnail":null,"rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:28 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:35 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Washington&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Washington
     body:
       encoding: US-ASCII
       string: ''
@@ -2902,11 +2902,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - fb8aa23f-22bd-4e57-9f5d-101f567d6277
+      - 8d51fec6-c2ac-48bc-a38f-327cdd7868ce
       X-Runtime:
-      - '0.080368'
+      - '0.096458'
       Date:
-      - Tue, 07 Apr 2015 02:30:28 GMT
+      - Tue, 07 Apr 2015 20:39:35 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -2926,10 +2926,10 @@ http_interactions:
         of I-5, northwest of Marysville, was acquired by Snohomish County in 1996
         and opened for public use in 2006.","length":3.0,"activity_type":{"created_at":"2012-08-15T17:31:31Z","id":6,"name":"camping","updated_at":"2012-08-15T17:31:31Z"},"thumbnail":null,"rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:29 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:36 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=West%20Virginia&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=West%20Virginia
     body:
       encoding: US-ASCII
       string: ''
@@ -2956,11 +2956,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - d3cb940a-0c76-42c4-b684-e5f5ac72ecc6
+      - 6cb6d10a-c312-48ca-9537-fd447079a6c4
       X-Runtime:
-      - '0.080863'
+      - '0.105074'
       Date:
-      - Tue, 07 Apr 2015 02:30:28 GMT
+      - Tue, 07 Apr 2015 20:39:37 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -2983,10 +2983,10 @@ http_interactions:
         can''t beat the location!","length":25.0,"activity_type":{"created_at":"2012-08-15T16:12:35Z","id":5,"name":"mountain
         biking","updated_at":"2012-08-15T16:12:35Z"},"thumbnail":null,"rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:29 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:37 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Wisconsin&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Wisconsin
     body:
       encoding: US-ASCII
       string: ''
@@ -3013,11 +3013,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 59ff84dd-b0c6-4f9d-b1da-c875cf86dc63
+      - cd0fe0ad-ad5b-41ba-8e7a-a5c5c01ec282
       X-Runtime:
-      - '0.075593'
+      - '0.105462'
       Date:
-      - Tue, 07 Apr 2015 02:30:29 GMT
+      - Tue, 07 Apr 2015 20:39:38 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -3050,10 +3050,10 @@ http_interactions:
         more suitable for off-road bikes. The trail is not developed in Langlade County
         but walkers and bicyclists may use the trail tread.","length":14.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:29 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:38 GMT
 - request:
     method: get
-    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Wyoming&radius=50
+    uri: https://outdoor-data-api.herokuapp.com/api?api_key=b9cfeeefd2bde349eedce7e901254da5&format=json&limit=1&q%5Bstate_cont%5D=Wyoming
     body:
       encoding: US-ASCII
       string: ''
@@ -3080,11 +3080,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - f0c738ac-7720-476b-b9c2-af12553a453c
+      - 4dced01d-cc1e-4e27-9b45-93b721bde7fd
       X-Runtime:
-      - '0.072361'
+      - '0.101305'
       Date:
-      - Tue, 07 Apr 2015 02:30:29 GMT
+      - Tue, 07 Apr 2015 20:39:38 GMT
       X-Rack-Cache:
       - miss
       Server:
@@ -3102,5 +3102,5 @@ http_interactions:
         Crosses Willow Creek and ties in with East Tensleep Trail. source: fs.usda.gov","length":4.0,"activity_type":{"created_at":"2012-08-15T16:12:35Z","id":5,"name":"mountain
         biking","updated_at":"2012-08-15T16:12:35Z"},"thumbnail":null,"rank":null,"rating":0.0}]}]}'
     http_version: 
-  recorded_at: Tue, 07 Apr 2015 02:30:30 GMT
+  recorded_at: Tue, 07 Apr 2015 20:39:38 GMT
 recorded_with: VCR 2.9.3

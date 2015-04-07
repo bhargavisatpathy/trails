@@ -8,6 +8,8 @@ class Api::V1::TrailsController < ApplicationController
   end
 
   def show
+    @trail = Trail.find(params[:id])
 
+    respond_with @trail
   end
 end
