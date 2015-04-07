@@ -12,7 +12,7 @@ class Api::V1::TrailsControllerTest < ActionController::TestCase
   end
 
   test "should get trails show" do
-    trail = Trail.create(name: "howdy hike", city: "Denver", state: "CO", country: "United States", lat: 10.323, lng: -103.23, description: "A darn good time", directions: "take a right" )
+    trail = Trail.create(name: "howdy hike", city: "Denver", state: "CO", country: "United States", lat: 10.323, lng: -103.23, description: "A darn good time", directions: "take a right")
     get :show, id: trail.id, format: :json
 
     data = JSON.parse(response.body)
