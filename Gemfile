@@ -13,6 +13,7 @@ gem "pry"
 gem "figaro"
 gem 'active_model_serializers'
 gem 'responders'
+gem 'will_paginate', '~> 3.0.6'
 
 group :development, :test do
   gem "byebug"
