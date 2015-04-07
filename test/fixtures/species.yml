@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  trail_id: 
+  kingdom: MyString
+  common_name: MyString
+  photo_url: MyString
+  clip_url: MyString
+  lat: 9.99
+  lng: 9.99
+
+two:
+  trail_id: 
+  kingdom: MyString
+  common_name: MyString
+  photo_url: MyString
+  clip_url: MyString
+  lat: 9.99
+  lng: 9.99
