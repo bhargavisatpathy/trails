@@ -9,7 +9,7 @@ class GbifServiceTest < ActiveSupport::TestCase
 
   test "#species" do
     VCR.use_cassette("gbif_service_species_recordings") do
-      species = service.species
+      species = service.species(35.1, -95.9)
 
       assert_equal "Petrochelidon pyrrhonota", species[0]
     end

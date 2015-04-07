@@ -5,9 +5,10 @@ class GbifService
     @connection = Faraday.new(url:"http://api.gbif.org/v1/occurrence/")
   end
 
-  def species
+  def species(lat, long)
     parse(connection
-      .get("search?decimalLatitude=35,35.2&decimalLongitude=-96,-95.8"))
+      .get("search?decimalLatitude=#{lat - 0.1},#{lat + 0.1}&\
+      decimalLongitude=#{long - 0.1},#{long + 0.1}"))
   end
 
   private
