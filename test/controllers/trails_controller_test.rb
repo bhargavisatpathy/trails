@@ -22,8 +22,8 @@ class Api::V1::TrailsControllerTest < ActionController::TestCase
   end
 
   test "trails have nested activities" do
-    trail = Trail.create(name: "howdy hike", city: "Denver", state: "CO", country: "United States", lat: 10.323, lng: -103.23, description: "A darn good time", directions: "take a right" )
-    activity = Activity.create(trail: trail, activity_type_name: "Hiking", url: "https://www.fun.com", activity_description: "walking")
+    trail = Trail.create(name: "howdy hike", city: "Denver", state: "CO", country: "United States", lat: 10.323, lng: -103.23, description: "A darn good time", directions: "take a right")
+    Activity.create(trail: trail, activity_type_name: "Hiking", url: "https://www.fun.com", activity_description: "walking")
 
     get :index, format: :json
 
@@ -34,7 +34,7 @@ class Api::V1::TrailsControllerTest < ActionController::TestCase
   end
 
   test "trails are paginated" do
-    31.times { trail = Trail.create(name: "howdy hike", city: "Denver", state: "CO", country: "United States", lat: 10.323, lng: -103.23, description: "A darn good time", directions: "take a right" )
+    31.times { trail = Trail.create(name: "howdy hike", city: "Denver", state: "CO", country: "United States", lat: 10.323, lng: -103.23, description: "A darn good time", directions: "take a right")  
     Activity.create(trail: trail, activity_type_name: "Hiking", url: "https://www.fun.com", activity_description: "walking") }
 
     get :index, page: 2, format: :json
