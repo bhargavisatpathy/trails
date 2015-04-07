@@ -14,8 +14,6 @@ class GbifService
   private
 
   def parse(response)
-    all_species = JSON.parse(response.body)["results"].map do |item|
-      item["species"]
-    end
+    all_species = JSON.parse(response.body)["results"]
   end
 end
