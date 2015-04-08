@@ -12,7 +12,13 @@ class Api::V1::TrailsControllerTest < ActionController::TestCase
   end
 
   test "should get trails show" do
-    trail = Trail.create(name: "howdy hike", city: "Denver", state: "CO", country: "United States", lat: 10.323, lng: -103.23, description: "A darn good time", directions: "take a right")
+    trail = Trail.create(name: "howdy hike",
+                         city: "Denver", 
+                         state: "CO", 
+                         country: "United States", 
+                         lat: 10.323, lng: -103.23, 
+                         description: "A darn good time", 
+                         directions: "take a right")
     get :show, id: trail.id, format: :json
 
     data = JSON.parse(response.body)
@@ -22,8 +28,18 @@ class Api::V1::TrailsControllerTest < ActionController::TestCase
   end
 
   test "trails have nested activities" do
-    trail = Trail.create(name: "howdy hike", city: "Denver", state: "CO", country: "United States", lat: 10.323, lng: -103.23, description: "A darn good time", directions: "take a right")
-    Activity.create(trail: trail, activity_type_name: "Hiking", url: "https://www.fun.com", activity_description: "walking")
+    trail = Trail.create(name: "howdy hike", 
+                         city: "Denver", 
+                         state: "CO", 
+                         country: "United States", 
+                         lat: 10.323, 
+                         lng: -103.23, 
+                         description: "A darn good time", 
+                         directions: "take a right")
+    Activity.create(trail: trail, 
+                    activity_type_name: "Hiking", 
+                    url: "https://www.fun.com", 
+                    activity_description: "walking")
 
     get :index, format: :json
 
@@ -34,8 +50,18 @@ class Api::V1::TrailsControllerTest < ActionController::TestCase
   end
 
   test "trails are paginated" do
-    31.times { trail = Trail.create(name: "howdy hike", city: "Denver", state: "CO", country: "United States", lat: 10.323, lng: -103.23, description: "A darn good time", directions: "take a right")  
-    Activity.create(trail: trail, activity_type_name: "Hiking", url: "https://www.fun.com", activity_description: "walking") }
+    31.times { trail = Trail.create(name: "howdy hike", 
+                                    city: "Denver", 
+                                    state: "CO", 
+                                    country: "United States", 
+                                    lat: 10.323, 
+                                    lng: -103.23, 
+                                    description: "A darn good time", 
+                                    directions: "take a right")  
+    Activity.create(trail: trail, 
+                    activity_type_name: "Hiking", 
+                    url: "https://www.fun.com", 
+                    activity_description: "walking") }
 
     get :index, page: 2, format: :json
 
