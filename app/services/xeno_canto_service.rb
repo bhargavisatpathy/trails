@@ -11,9 +11,23 @@ class XenoCantoService
       .get("recordings?query=box:#{min_lat},#{min_long},#{max_lat},#{max_long}"))
   end
 
+  def species_recording(species)
+    species_parse(connection
+      .get("recordings?query=#{species}"))
+  end
+
   private
 
   def parse(response)
     JSON.parse(response.body)["recordings"]
+  end
+
+  def species_parse(response)
+    body = JSON.parse(response.body)
+    if body["numRecordings"] == "0"
+      "not found"
+    else
+      body["recordings"][0]["file"]
+    end
   end
 end
