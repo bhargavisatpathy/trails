@@ -46,8 +46,8 @@ class Api::V1::TrailsControllerTest < ActionController::TestCase
     data = JSON.parse(response.body)
 
     assert_equal "howdy hike", data["trails"].last["name"]
-    assert_equal "Hiking", 
-      data["trails"].last["activities"].last["activity_type_name"]
+    assert_equal "Hiking",
+    data["trails"].last["activities"].last["activity_type_name"]
   end
 
   test "trails have nested species" do
