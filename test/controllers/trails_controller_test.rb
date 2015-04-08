@@ -60,7 +60,7 @@ class Api::V1::TrailsControllerTest < ActionController::TestCase
                          lng: -103.23,
                          description: "A darn good time",
                          directions: "take a right")
-    species = Species.create(kingdom: "Animalia",
+    Species.create(kingdom: "Animalia",
                              trail_id: trail.id,
                              scientific_name: "Parus caeruleus",
                              photo_url: "http://media.eol.org/content/2014/12/28/22/94944_orig.jpg",
