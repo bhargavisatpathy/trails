@@ -8,14 +8,18 @@ class ApiCombinerTest < ActiveSupport::TestCase
                          state: "Alabama",
                          country: "United States",
                          lat: 35,
-                         lng: 100,
+                         lng: -100,
                          description: nil,
                          directions: "DE SOTO STATE PARK&lt;br /&gt;&lt;br ",
                          created_at: "2015-04-07 20:14:51",
                          updated_at: "2015-04-07 20:14:51",
                          unique_id: 6039)
-    result = ApiCombiner.get_species(trail.id)
-    binding.pry
-    assert result
+    VCR.use_cassette("api_combiner_recording") do
+      result = ApiCombiner.get_species(trail.id)
+
+      assert_equal 20, result.count
+      assert result[0].common_name
+      assert result[0].kingdom
+    end
   end
 end

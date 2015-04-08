@@ -2,7 +2,7 @@ class GbifService
   attr_reader :connection, :genus
 
   def initialize
-    @connection = Faraday.new(url:"http://api.gbif.org/v1/occurrence/")
+    @connection = Faraday.new(url: "http://api.gbif.org/v1/occurrence/")
   end
 
   def species(lat, long)
@@ -14,6 +14,6 @@ class GbifService
   private
 
   def parse(response)
-    all_species = JSON.parse(response.body)["results"]
+    JSON.parse(response.body)["results"]
   end
 end
