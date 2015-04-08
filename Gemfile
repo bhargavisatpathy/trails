@@ -11,6 +11,9 @@ gem "sdoc", "~> 0.4.0", group: :doc
 gem "faraday", "< 0.9.0"
 gem "pry"
 gem "figaro"
+gem "active_model_serializers"
+gem "responders"
+gem "will_paginate", "~> 3.0.6"
 
 group :development, :test do
   gem "byebug"
