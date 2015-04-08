@@ -61,18 +61,20 @@ class Api::V1::TrailsControllerTest < ActionController::TestCase
                          description: "A darn good time",
                          directions: "take a right")
     Species.create(kingdom: "Animalia",
-                             trail_id: trail.id,
-                             scientific_name: "Parus caeruleus",
-                             photo_url: "http://media.eol.org/content/2014/12/28/22/94944_orig.jpg",
-                             lat: 10.323,
-                             lng: -103.23)
+                   trail_id: trail.id,
+                   scientific_name: "Parus caeruleus",
+                   photo_url: "http://media.eol.org/content/2014/12/28/22/94944_orig.jpg",
+                   lat: 10.323,
+                   lng: -103.23)
 
     get :index, format: :json
 
     data = JSON.parse(response.body)
 
     assert_equal "howdy hike", data["trails"].last["name"]
-    assert_equal "Animalia", data["trails"].last["species"].first["kingdom"]
+    assert_equal "Animalia", data["trails"].
+                             last["species"].
+                             first["kingdom"]
   end
 
   test "trails are paginated" do
