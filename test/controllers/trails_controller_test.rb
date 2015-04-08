@@ -36,7 +36,7 @@ class Api::V1::TrailsControllerTest < ActionController::TestCase
                          lat: 10.323,
                          lng: -103.23,
                          description: "A darn good time",
-                         directions: "take a right")   
+                         directions: "take a right")
     Activity.create(trail: trail,
                     activity_type_name: "Hiking",
                     url: "https://www.fun.com",
