@@ -15,7 +15,6 @@ class TrailTest < ActiveSupport::TestCase
     trail2 = Trail.create(name: "sunny bike", city: "Denver", state: "WA", country: "United States", lat: 11.323, lng: -104.23, description: "A darn good time", directions: "take a right")
     trail3 = Trail.create(name: "nature bike", city: "Seatle", state: "WA", country: "United States", lat: 3.323, lng: -99.23, description: "A darn good time", directions: "take a right")
     searched_trails = Trail.filter_by_lat(11)
-    
     assert_equal "sunny bike", searched_trails.first.name
     assert_equal 2, searched_trails.count
   end
