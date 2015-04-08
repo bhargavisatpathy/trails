@@ -20,6 +20,5 @@ Christopher Luhring: https://github.com/cluhring
 
 * bundle install
 * git push heroku master
-* heroku pg:reset
-* heroku run rake db:schema:load db:seed
+* heroku run rake populate
 * heroku open and look at all the interesting trails at your place
