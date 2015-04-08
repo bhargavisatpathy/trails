@@ -16,13 +16,22 @@ class EolService
 
   def image_from_species(genus, species)
     page = page_id(genus, species)
-    image(page)
+    if page == "no results"
+      "not available"
+    else
+      image(page)
+    end
   end
 
   private
 
   def parse(response)
-    JSON.parse(response.body)["results"][0]["id"]
+    body = JSON.parse(response.body)
+    if body["totalResults"] == 0
+      "no results"
+    else
+      body["results"][0]["id"]
+    end
   end
 
   def parse_page(response)
