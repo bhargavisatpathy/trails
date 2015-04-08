@@ -2,7 +2,7 @@ class Api::V1::TrailsController < ApplicationController
   respond_to :json
 
   def index
-    @trails = Trail.paginate(page: :params[:page], per_page: :30)
+    @trails = Trail.paginate(page: params[:page], per_page: 30)
 
     respond_with @trails
   end
