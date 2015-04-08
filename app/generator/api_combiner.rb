@@ -1,9 +1,6 @@
 module ApiCombiner
-  attr_reader :trail_species
-
   def self.get_species(trail_id)
     trail = Trail.find(trail_id)
-    @trail_species = []
 
     add_gbif_species(trail.id, trail.lat, trail.lng)
     add_xeno_canto_species(trail.id, trail.lat, trail.lng)
@@ -19,7 +16,7 @@ module ApiCombiner
         genus, spec = species["species"].split(" ")
         img = eol.image_from_species(genus, spec)
 
-        @trail_species << Species.create(
+        Species.create(
           trail_id: trail_id,
           kingdom: species["kingdom"],
           scientific_name: species["species"],
@@ -42,7 +39,7 @@ module ApiCombiner
       if species["id"]
         img = eol.image_from_species(species["gen"], species["sp"])
 
-        @trail_species << Species.create(
+        Species.create(
           trail_id: trail_id,
           kingdom: "Animalia",
           scientific_name: "#{species['gen']} #{species['sp']}",
