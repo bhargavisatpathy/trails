@@ -46,9 +46,34 @@ class Api::V1::TrailsControllerTest < ActionController::TestCase
     data = JSON.parse(response.body)
 
     assert_equal "howdy hike", data["trails"].last["name"]
-    assert_equal "Hiking", data["trails"].
-                           last["activities"].
-                           last["activity_type_name"]
+    assert_equal "Hiking",
+    data["trails"].last["activities"].last["activity_type_name"]
+  end
+
+  test "trails have nested species" do
+    trail = Trail.create(name: "howdy hike",
+                         city: "Denver",
+                         state: "CO",
+                         country: "United States",
+                         lat: 10.323,
+                         lng: -103.23,
+                         description: "A darn good time",
+                         directions: "take a right")
+    Species.create(kingdom: "Animalia",
+                   trail_id: trail.id,
+                   scientific_name: "Parus caeruleus",
+                   photo_url: "http://media.eol.jpg",
+                   lat: 10.323,
+                   lng: -103.23)
+
+    get :index, format: :json
+
+    data = JSON.parse(response.body)
+
+    assert_equal "howdy hike", data["trails"].last["name"]
+    assert_equal "Animalia", data["trails"].
+                             last["species"].
+                             first["kingdom"]
   end
 
   test "trails are paginated" do

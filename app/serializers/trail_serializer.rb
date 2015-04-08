@@ -10,4 +10,5 @@ class TrailSerializer < ActiveModel::Serializer
              :directions,
              :activities
   has_many :activities
+  has_many :species
 end
