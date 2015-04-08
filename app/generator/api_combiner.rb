@@ -1,7 +1,4 @@
 module ApiCombiner
-  def populate_trails_database
-  end
-
   def self.get_species(trail_id)
     gbif = GbifService.new
     eol = EolService.new
