@@ -11,8 +11,8 @@ gem "sdoc", "~> 0.4.0", group: :doc
 gem "faraday", "< 0.9.0"
 gem "pry"
 gem "figaro"
-gem 'active_model_serializers'
-gem 'responders'
+gem "active_model_serializers"
+gem "responders"
 
 group :development, :test do
   gem "byebug"
