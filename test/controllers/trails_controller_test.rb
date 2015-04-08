@@ -6,7 +6,7 @@ class Api::V1::Trails::TrailsControllerTest < ActionController::TestCase
     get :index
 
     data = JSON.parse(response.body)
-    
+
     assert_response :success
     assert_kind_of Hash, data
   end
@@ -16,7 +16,7 @@ class Api::V1::Trails::TrailsControllerTest < ActionController::TestCase
     get :show, id: trail.id
 
     data = JSON.parse(response.body)
-    
+
     assert_response :success
     assert_kind_of Hash, data
   end
