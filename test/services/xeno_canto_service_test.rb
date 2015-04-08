@@ -24,4 +24,18 @@ class XenoCantoServiceTest < ActiveSupport::TestCase
       assert_equal 0, recordings.length
     end
   end
+
+  test "recording by species" do
+    VCR.use_cassette("xeno_canto_service_species_recordings") do
+      recording = service.species_recording("troglodytes troglodytes")
+      assert_equal "http://www.xeno-canto.org/233278/download", recording
+    end
+  end
+
+  test "recording by species when not found" do
+    VCR.use_cassette("xeno_canto_service_fake_species_recordings") do
+      recording = service.species_recording("fake bird")
+      assert_equal "not found", recording
+    end
+  end
 end
