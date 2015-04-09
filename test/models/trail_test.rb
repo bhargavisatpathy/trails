@@ -27,7 +27,7 @@ class TrailTest < ActiveSupport::TestCase
                    description: "A darn good time",
                     directions: "take a right")
   end
-  
+
   test "filters by state" do
     searched_trails = Trail.filter_by_state("CO")
     assert_equal "howdy hike", searched_trails.first.name
@@ -41,7 +41,7 @@ class TrailTest < ActiveSupport::TestCase
   end
 
   test "filter by long" do
-    long_searched_trails = Trail.filter_by_long(-104)
+    long_searched_trails = Trail.filter_by_lng(-104)
     assert_equal "howdy hike", long_searched_trails.first.name
     assert_equal 2, long_searched_trails.count
   end
