@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150406232825) do
+ActiveRecord::Schema.define(version: 20150407215516) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -28,6 +28,19 @@ ActiveRecord::Schema.define(version: 20150406232825) do
   end
 
   add_index "activities", ["trail_id"], name: "index_activities_on_trail_id", using: :btree
+
+  create_table "species", force: :cascade do |t|
+    t.integer  "trail_id"
+    t.string   "kingdom"
+    t.string   "common_name"
+    t.string   "photo_url"
+    t.string   "clip_url"
+    t.decimal  "lat",             precision: 10, scale: 6
+    t.decimal  "lng",             precision: 10, scale: 6
+    t.datetime "created_at",                               null: false
+    t.datetime "updated_at",                               null: false
+    t.string   "scientific_name"
+  end
 
   create_table "trails", force: :cascade do |t|
     t.string   "name"

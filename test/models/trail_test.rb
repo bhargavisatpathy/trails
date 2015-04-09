@@ -1,4 +1,4 @@
-require 'test_helper'
+require "test_helper"
 
 class TrailTest < ActiveSupport::TestCase
   test "filters by state" do
