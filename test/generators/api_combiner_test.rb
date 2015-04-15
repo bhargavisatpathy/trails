@@ -17,7 +17,7 @@ class ApiCombinerTest < ActiveSupport::TestCase
     VCR.use_cassette("api_combiner_recording") do
       ApiCombiner.get_species(trail.id)
 
-      assert_equal 22, Species.count
+      assert_equal 20, Species.count
       assert Species.first.common_name
       assert Species.first.kingdom
     end
