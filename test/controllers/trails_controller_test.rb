@@ -116,11 +116,18 @@ class Api::V1::TrailsControllerTest < ActionController::TestCase
                  lng: -103.23,
                  description: "A darn good time",
                  directions: "take a right")
+    Trail.create(name: "rainy bike",
+                 city: "Torrence",
+                 state: "CA",
+                 country: "United States",
+                 lat: 10.323,
+                 lng: -103.23,
+                 description: "A darn good time",
+                 directions: "take a right")
 
     get :search, state: 'CO', format: :json
 
     data = JSON.parse(response.body)['trails']
-
     assert_response :success
     assert_equal 2, data.length
   end
@@ -153,10 +160,10 @@ class Api::V1::TrailsControllerTest < ActionController::TestCase
                  directions: "take a right")
 
 
-    get :search, { lat: 10.323, lng: -103.23 }, format: :json
+    get :search, lat: 10.323, lng: -103.23, format: :json 
 
     data = JSON.parse(response.body)['trails']
     assert_response :success
-    # assert_equal 2, data.length
+    assert_equal 2, data.length
   end
 end

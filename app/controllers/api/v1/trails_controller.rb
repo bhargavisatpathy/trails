@@ -14,13 +14,11 @@ class Api::V1::TrailsController < ApplicationController
   end
 
   def search
-    if !params[:state].nil?
+    if params[:state]
       @trails = Trail.filter_by_state(params[:state])
-    elsif !params[:lat].nil? && !params[:lng].nil?
+    elsif params[:lat] && params[:lng]
       @trails = Trail.filter_by_lat_lng(params[:lat].to_f, params[:lng].to_f)
-      byebug
     end
-
     respond_with @trails
   end
 end
