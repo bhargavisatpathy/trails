@@ -16,7 +16,8 @@ Lydia Shafer: https://github.com/lydias303
 
 Christopher Luhring: https://github.com/cluhring
 
-### Ruby Gem for this app is at https://github.com/bhargavisatpathy/wonder_ways_gem
+### Ruby Gem for this app is at 
+https://github.com/bhargavisatpathy/wonder_ways_gem
 
 ```ruby
 gem 'wonder_ways'
