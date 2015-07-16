@@ -9,6 +9,7 @@ class TrailSerializer < ActiveModel::Serializer
              :description,
              :directions,
              :length
+  has_many :activities
 
   def length
     if object.activities.any?
