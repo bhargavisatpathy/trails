@@ -1,14 +1,17 @@
 class Api::V1::TrailsController < ApplicationController
   def index
-    trails = Trail.where(state: params[:state]).limit(30)
-
-    render json: trails, each_serializer: TrailSerializer
+    if params[:state]
+      @trails = Trail.where(state: params[:state])
+    else
+      @trails = Trail.limit(30)
+    end
+    render json: @trails
   end
 
   def show
-    trail = Trail.find(params[:id])
+    @trail = Trail.find(params[:id])
 
-    render json: trail, serializer: TrailSerializer
+    render json: @trail
   end
 
   def search
